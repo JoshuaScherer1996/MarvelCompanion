@@ -20,7 +20,7 @@ class AppRepository {
               1,
                 R.string.amazing_fantasy_title,
                 R.drawable.amazing_fantasy,
-                15,
+                R.string.amazing_fantasy_issue,
                 R.string.amazing_fantasy_creator,
                 1962,
                 R.string.amazing_fantasy_detail
@@ -29,7 +29,7 @@ class AppRepository {
                 2,
                 R.string.cap_title,
                 R.drawable.captain_america,
-                1,
+                R.string.cap_issue,
                 R.string.cap_creator,
                 1941,
                 R.string.cap_detail
@@ -38,7 +38,7 @@ class AppRepository {
                 3,
                 R.string.hulk_title,
                 R.drawable.hulk,
-                1,
+                R.string.hulk_issue,
                 R.string.hulk_creator,
                 1962,
                 R.string.hulk_detail
@@ -47,7 +47,7 @@ class AppRepository {
                 4,
                 R.string.ironman_title,
                 R.drawable.ironman_comic,
-                1,
+                R.string.ironman_issue,
                 R.string.ironman_creator,
                 1968,
                 R.string.ironman_detail
@@ -56,7 +56,7 @@ class AppRepository {
                 5,
                 R.string.avengers_title,
                 R.drawable.avengers,
-                1,
+                R.string.avengers_issue,
                 R.string.avengers_creator,
                 1963,
                 R.string.avengers_detail
@@ -65,7 +65,7 @@ class AppRepository {
                 1,
                 R.string.marvels_title,
                 R.drawable.marvels,
-                1,
+                R.string.marvels_issue,
                 R.string.marvels_creator,
                 2018,
                 R.string.marvels_detail

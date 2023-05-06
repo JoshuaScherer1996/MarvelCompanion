@@ -4,26 +4,32 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     
     <string name="amazing_fantasy_title">Amazing Fantasy</string>
+    <string name="amazing_fantasy_issue">Issue: #15</string>
     <string name="amazing_fantasy_creator">Stan Lee</string>
     <string name="amazing_fantasy_detail">The First Appearance of the Amazing Spider-Man! When young Peter Parker gains remarkable abilities from a radioactive spider, he must step up and try to become a hero — while also dealing with the fantastic pressures of an everyday teenager! For with great power, there must also come great responsibility!</string>
 
     <string name="cap_title">Captain America Comics</string>
+    <string name="cap_issue">Issue: #1</string>
     <string name="cap_creator">Jack Kirby</string>
     <string name="cap_detail">What better way to introduce a hero clad in the American flag during World War II than by showing him decking Hitler? Simple and effective, we have Joe Simon and Jack Kirby to thank for this one.</string>
 
     <string name="hulk_title">Incredible Hulk</string>
+    <string name="hulk_issue">Issue: #1</string>
     <string name="hulk_creator">Stan Lee</string>
     <string name="hulk_detail">Is he a man, monster or both? The jury is still out on that one, but fans have decided that this cover by Jack Kirby is one of Marvels best!</string>
 
     <string name="ironman_title">Iron Man</string>
+    <string name="ironman_issue">Issue: #1</string>
     <string name="ironman_creator">Archie Goodwin</string>
     <string name="ironman_detail">Its the big Premiere! The Invincible Iron Man versus the menaces of Whiplash and AIM. Featuring Nick Fury and SHIELD.</string>
 
     <string name="avengers_title">Avengers</string>
+    <string name="avengers_issue">Issue: #1</string>
     <string name="avengers_creator">Stan Lee</string>
     <string name="avengers_detail">Sometimes there are threats too big for any one hero to combat. Stan Lee and Jack Kirby knew this. And so they created the Avengers, bringing Thor, Hulk, Iron Man and others together to form Earths Mightiest Heroes. Avengers Assemble!</string>
 
     <string name="marvels_title">Marvels Remastered</string>
+    <string name="marvels_issue">Issue: #1</string>
     <string name="marvels_creator">-</string>
     <string name="marvels_detail">Collects Marvels #0-4. Within the Marvel Universe, heroes soar high in the skies, ready to battle the villains who threaten their world. Yet living in the shadow of these extraordinary icons are ordinary men and women who view the “MARVELS” with a mixture of fear, disbelief, envy and admiration. Among them is Phil Sheldon, a New York City photojournalist who has dedicated his career to covering the exploits of the Marvels and their effect on humankind. Written by Kurt Busiek and masterfully illustrated by Alex Ross, Marvels presents a richly painted historical overview of the entire Marvel Universe, spanning from the 1939 debut of the Human Torch to the fearsome coming of the world-devouring Galactus — and culminating in the shocking death of Gwen Stacy, Spider-Man’s first love.</string>
 </resources>
