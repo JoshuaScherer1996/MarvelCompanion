@@ -35,7 +35,7 @@ class ComicFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         viewModel.comicList.observe(viewLifecycleOwner) { comics ->
-            binding.rvComics.adapter = ComicAdapter(comics)
+            binding.rvComics.adapter = ComicAdapter(comics, findNavController())
         }
 
         binding.fbtnHome.setColorFilter(ContextCompat.getColor(requireContext(), android.R.color.white), PorterDuff.Mode.SRC_IN)

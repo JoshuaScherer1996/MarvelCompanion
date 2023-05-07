@@ -11,6 +11,10 @@ class AppRepository {
     val comicList: LiveData<List<Comic>>
         get() = _comicList
 
+    private val _sortedComicList = MutableLiveData<List<Comic>>()
+    val sortedComicList: LiveData<List<Comic>>
+        get() = _sortedComicList
+
     init {
         loadComics()
     }
@@ -62,7 +66,7 @@ class AppRepository {
                 R.string.avengers_detail
             ),
             Comic(
-                1,
+                6,
                 R.string.marvels_title,
                 R.drawable.marvels,
                 R.string.marvels_issue,
@@ -72,5 +76,11 @@ class AppRepository {
             )
         )
         _comicList.value = comicList
+
+        // Sort the list of comics based on the 'publishedYear' field in ascending order
+        val sortedComics = comicList.sortedBy { it.publishedYear }
+
+        // Update the LiveData object with the sorted list
+        _sortedComicList.value = sortedComics
     }
 }

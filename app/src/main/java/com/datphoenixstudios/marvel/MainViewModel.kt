@@ -9,4 +9,6 @@ class MainViewModel : ViewModel() {
 
     val comicList = repository.comicList
 
+    val sortedComicList = repository.sortedComicList
+
 }

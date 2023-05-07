@@ -1,10 +1,12 @@
 package com.datphoenixstudios.marvel.ui
 
+import android.graphics.PorterDuff
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.core.content.ContextCompat
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
@@ -49,11 +51,17 @@ class DetailFragment : Fragment() {
                     binding.ivDetail.setImageResource(currentComic.cover)
                     binding.tvTitle.setText(currentComic.title)
                     binding.tvCreator.setText(currentComic.creator)
-                    binding.tvYear.setText(currentComic.publishedYear)
+                    binding.tvYear.text = currentComic.publishedYear.toString()
                     binding.tvIssue.setText(currentComic.issue)
                     binding.tvDetail.setText(currentComic.detailText)
                 }
             }
+
+        binding.fbtnHome.setColorFilter(ContextCompat.getColor(requireContext(), android.R.color.white), PorterDuff.Mode.SRC_IN)
+
+        binding.fbtnHome.setOnClickListener {
+            findNavController().navigate(DetailFragmentDirections.actionDetailFragmentToComicFragment())
+        }
         }
     }
 
